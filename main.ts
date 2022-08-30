@@ -1,3 +1,4 @@
+/*
 /// <reference path="singleton/demo.ts" />
 /// <reference path="abstract_factory/demo.ts" />
 /// <reference path="factory_method/demo.ts" />
@@ -24,14 +25,11 @@
 //
 //
 //
-declare var require : (moduleId : string) => any;
-declare var process : any;
+*/
 
 var readline = require('readline');
 
 namespace Patterns {
-
-
 	function printMenu() : void {
 		var menu =	"= Creational Patterns == \n" +
 					"  1: Singleton \n" +

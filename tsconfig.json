@@ -4,6 +4,8 @@
         "target": "ES5",
         "noImplicitAny": false,
         "sourceMap": false,
+        "moduleResolution": "node",
+        "lib": ["ES2017"],
 		"outFile": "patterns.js"
     },
 	"files": [
